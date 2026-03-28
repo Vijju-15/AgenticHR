@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  orchestrator-agent:
+    build: .
+    container_name: orchestrator-agent
+    ports:
+      - "8001:8001"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - GEMINI_MODEL=${GEMINI_MODEL}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MONGODB_URL=mongodb://mongodb:27017
+      - MONGODB_DB=${MONGODB_DB}
+      - GUIDE_AGENT_URL=http://guide-agent:8000
+      - LIAISON_AGENT_URL=http://liaison-agent:8002
+      - PROVISIONING_AGENT_URL=http://provisioning-agent:8003
+      - SCHEDULER_AGENT_URL=http://scheduler-agent:8004
+      - N8N_BASE_URL=http://n8n:5678
+    depends_on:
+      - redis
+      - mongodb
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - agentichr-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: agentichr-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - agentichr-network
+
+  mongodb:
+    image: mongo:7
+    container_name: agentichr-mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=${MONGODB_DB}
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - agentichr-network
+
+volumes:
+  redis-data:
+  mongodb-data:
+
+networks:
+  agentichr-network:
+    driver: bridge

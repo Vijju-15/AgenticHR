@@ -1,0 +1,8 @@
+{
+  "task_type": "generate_id",
+  "tenant_id": "acme_corp",
+  "payload": {
+    "employee_name": "Charlie Davis",
+    "department": "Engineering"
+  }
+}

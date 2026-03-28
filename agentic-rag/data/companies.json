@@ -1,0 +1,19 @@
+{
+  "techcorp": {
+    "company_id": "techcorp",
+    "company_name": "TechCorp Solutions",
+    "created_at": "2025-11-07T15:12:50.721876",
+    "collection_name": "hr_policies_techcorp",
+    "metadata": {
+      "industry": "Technology",
+      "size": "50-200 employees"
+    }
+  },
+  "acme_corp": {
+    "company_id": "acme_corp",
+    "company_name": "Acme Corporation",
+    "created_at": "2025-11-08T17:08:22.729912",
+    "collection_name": "hr_policies_acme_corp",
+    "metadata": {}
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "workflow_id": "WF_test_generate_id",
+  "tenant_id": "acme_corp",
+  "task": {
+    "task_id": "TEST_GEN_ID_001",
+    "task_type": "generate_id",
+    "payload": {
+      "employee_name": "Diana Prince",
+      "department": "Marketing"
+    },
+    "priority": 5,
+    "retry_count": 0
+  }
+}

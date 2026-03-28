@@ -1,0 +1,16 @@
+{
+  "workflow_id": "WF_test",
+  "tenant_id": "acme_corp",
+  "task": {
+    "task_id": "TEST_001",
+    "task_type": "create_hr_record",
+    "payload": {
+      "employee_name": "Bob Smith",
+      "employee_email": "bob@acme.com",
+      "role": "Engineer",
+      "department": "IT"
+    },
+    "priority": 5,
+    "retry_count": 0
+  }
+}

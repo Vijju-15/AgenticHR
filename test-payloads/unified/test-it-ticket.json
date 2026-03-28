@@ -1,0 +1,10 @@
+{
+  "task_type": "create_it_ticket",
+  "tenant_id": "acme_corp",
+  "payload": {
+    "employee_id": "EMP001",
+    "employee_name": "Bob Smith",
+    "employee_email": "bob.smith@acme.com",
+    "required_systems": ["email", "vpn", "slack", "jira"]
+  }
+}

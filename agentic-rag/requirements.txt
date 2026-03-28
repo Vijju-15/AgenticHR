@@ -1,0 +1,79 @@
+# Core LLM Framework
+langgraph
+langchain
+langchain-anthropic
+langchain-groq
+langchain-community
+langchain-core
+langchain-qdrant
+langchain-text-splitters
+
+# LlamaIndex (alternative RAG framework)
+llama-index
+llama-index-llms-anthropic
+llama-index-embeddings-huggingface
+llama-index-vector-stores-qdrant
+
+# Vector Stores
+qdrant-client
+chromadb
+
+# Document Processing
+pypdf
+python-docx
+unstructured
+sentence-transformers
+
+# API Framework
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Tools & Utilities
+python-dotenv
+python-multipart
+httpx
+requests
+aiohttp
+
+# Email
+email-validator
+aiosmtplib
+
+# Data Processing
+numpy
+pandas
+python-dateutil
+holidays
+
+# Evaluation & Monitoring
+ragas
+langsmith
+langfuse
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Security
+slowapi
+python-jose[cryptography]
+
+# Caching
+redis
+
+# Visualization (optional)
+streamlit
+plotly
+
+# Additional Utilities
+tenacity
+loguru
+
+# Development
+black
+flake8
+mypy
+ipython

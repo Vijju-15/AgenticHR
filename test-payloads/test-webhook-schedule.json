@@ -1,0 +1,6 @@
+{
+  "employee_name": "Alice Johnson",
+  "employee_email": "alice.johnson@acme.com",
+  "manager_email": "manager@acme.com",
+  "start_date": "2026-03-01"
+}

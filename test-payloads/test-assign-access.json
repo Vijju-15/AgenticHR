@@ -1,0 +1,20 @@
+{
+  "workflow_id": "WF_test_access",
+  "tenant_id": "acme_corp",
+  "task": {
+    "task_id": "TEST_ACCESS_001",
+    "task_type": "assign_access",
+    "payload": {
+      "employee_id": "EMP001",
+      "access_roles": [
+        "github_developer",
+        "aws_read_only",
+        "jira_user",
+        "confluence_user",
+        "slack_member"
+      ]
+    },
+    "priority": 5,
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,31 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Groq AI
+langchain-groq
+langchain-core
+
+# Redis for message streaming
+redis
+redis-om
+
+# MongoDB
+pymongo
+motor
+
+# Utilities
+python-dotenv
+loguru
+httpx
+python-dateutil
+
+# Type checking
+typing-extensions
+
+# Auth
+PyJWT>=2.8.0
+passlib[bcrypt]>=1.7.4
+python-multipart

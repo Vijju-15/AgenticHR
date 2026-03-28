@@ -1,0 +1,7 @@
+{
+  "task_type": "unknown_task",
+  "tenant_id": "acme_corp",
+  "payload": {
+    "test": "This should trigger error handling"
+  }
+}

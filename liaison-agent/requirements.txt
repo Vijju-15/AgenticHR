@@ -1,0 +1,24 @@
+# Liaison Agent Dependencies
+
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# LLM Integration
+langchain-groq
+langchain-core
+
+# Messaging
+redis
+
+# Logging
+loguru
+
+# Utilities
+python-dotenv
+python-multipart
+
+# HTTP Client (for testing)
+httpx

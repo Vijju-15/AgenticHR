@@ -1,0 +1,26 @@
+# Provisioning Agent Dependencies
+
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Redis for message streaming
+redis
+
+# HTTP Client for n8n webhooks
+httpx
+
+# Database
+pymongo
+
+# Logging
+loguru
+
+# Utilities
+python-dotenv
+python-multipart
+
+# Type checking
+typing-extensions

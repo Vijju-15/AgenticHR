@@ -1,0 +1,9 @@
+{
+  "task_type": "initiate_conversation",
+  "tenant_id": "acme_corp",
+  "payload": {
+    "employee_name": "Frank Miller",
+    "employee_email": "frank.miller@acme.com",
+    "manager_email": "manager@acme.com"
+  }
+}

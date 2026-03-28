@@ -1,0 +1,12 @@
+{
+  "employee_id": "EMP002",
+  "employee_name": "Charlie Davis",
+  "employee_email": "charlie.davis@acme.com",
+  "required_systems": [
+    "email",
+    "vpn",
+    "slack",
+    "jira",
+    "confluence"
+  ]
+}

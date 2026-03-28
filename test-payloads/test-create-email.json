@@ -1,0 +1,14 @@
+{
+  "workflow_id": "WF_test_email",
+  "tenant_id": "acme_corp",
+  "task": {
+    "task_id": "TEST_EMAIL_001",
+    "task_type": "create_email",
+    "payload": {
+      "employee_name": "Eve Williams",
+      "department": "Sales"
+    },
+    "priority": 5,
+    "retry_count": 0
+  }
+}

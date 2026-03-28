@@ -1,0 +1,23 @@
+# Scheduler Agent Dependencies
+
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Redis – message streaming
+redis
+
+# Async HTTP client – n8n webhook calls
+httpx
+
+# Logging
+loguru
+
+# Utilities
+python-dotenv
+python-multipart
+
+# Type checking
+typing-extensions

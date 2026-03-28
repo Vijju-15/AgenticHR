@@ -1,0 +1,6 @@
+{
+  "employee_name": "Test User",
+  "employee_email": "test@acme.com",
+  "role": "Engineer",
+  "department": "IT"
+}

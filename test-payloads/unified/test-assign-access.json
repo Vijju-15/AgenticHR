@@ -1,0 +1,13 @@
+{
+  "task_type": "assign_access",
+  "tenant_id": "acme_corp",
+  "payload": {
+    "employee_id": "EMP001",
+    "access_roles": [
+      "github_developer",
+      "aws_admin",
+      "jira_user",
+      "confluence_user"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "task_type": "schedule_induction",
+  "tenant_id": "acme_corp",
+  "payload": {
+    "employee_name": "Eve Williams",
+    "employee_email": "eve.williams@acme.com",
+    "manager_email": "manager@acme.com",
+    "start_date": "2026-03-15"
+  }
+}

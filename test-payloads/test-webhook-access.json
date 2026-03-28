@@ -1,0 +1,8 @@
+{
+  "employee_id": "EMP001",
+  "access_roles": [
+    "github_developer",
+    "aws_read_only",
+    "jira_user"
+  ]
+}

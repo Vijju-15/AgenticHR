@@ -1,0 +1,68 @@
+# Secrets and local env files
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+!**/.env.template
+
+# n8n workflow definitions and exports
+**/n8n_workflows/
+n8n/**/*.json
+**/*workflow*.json
+
+# Python
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+
+# Node
+node_modules/
+**/node_modules/
+.next/
+dist/
+build/
+
+# Logs and runtime output
+logs/
+**/logs/
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Databases, local data, caches
+*.sqlite3
+*.db
+qdrant_data/
+n8n_data/
+*.pid
+
+# Keep nested repo metadata out of the monorepo index
+**/.git
+**/.git/**
+agentic-rag.worktrees/
+**/.git.backup-rootpush/
+**/.git.backup-rootpush/**

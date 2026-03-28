@@ -1,0 +1,14 @@
+{
+  "workflow_id": "WF_test_laptop",
+  "tenant_id": "acme_corp",
+  "task": {
+    "task_id": "TEST_LAPTOP_001",
+    "task_type": "request_laptop",
+    "payload": {
+      "employee_id": "EMP004",
+      "laptop_spec": "MacBook Pro 16 M3 Max, 32GB RAM, 1TB SSD"
+    },
+    "priority": 5,
+    "retry_count": 0
+  }
+}

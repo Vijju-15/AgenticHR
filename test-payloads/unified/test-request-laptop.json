@@ -1,0 +1,8 @@
+{
+  "task_type": "request_laptop",
+  "tenant_id": "acme_corp",
+  "payload": {
+    "employee_id": "EMP001",
+    "laptop_spec": "MacBook Pro 16 M3 Max, 64GB RAM, 2TB SSD"
+  }
+}

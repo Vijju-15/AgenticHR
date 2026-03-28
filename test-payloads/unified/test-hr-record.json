@@ -1,0 +1,12 @@
+{
+  "task_type": "create_hr_record",
+  "tenant_id": "acme_corp",
+  "payload": {
+    "employee_id": "EMP001",
+    "employee_name": "Alice Johnson",
+    "employee_email": "alice.johnson@acme.com",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "start_date": "2026-03-01"
+  }
+}
